@@ -1,0 +1,29 @@
+.calculator {
+    width: 300px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .display {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    
+  }
+  
+  .buttons button {
+    flex: 1;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 18px;
+
+  }
+  
+  
+  
